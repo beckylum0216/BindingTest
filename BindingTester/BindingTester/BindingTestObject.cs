@@ -9,25 +9,15 @@ using Xamarin.Forms;
 namespace BindingTester
 {
 
-    class BindingTestObject : StackLayout
+    class BindingTestObject : Entry
     {
         public BindingTestObject()
         {
             HorizontalOptions = LayoutOptions.FillAndExpand;
-            Children.Add(blahTextbox());
             
         }
 
-        public Entry blahTextbox()
-        {
-            var blah = new Entry()
-            {
-                HorizontalOptions = LayoutOptions.FillAndExpand
-            };
-
-
-            return blah;
-        }
+        
 
         public static BindableProperty blahStringProperty =
             BindableProperty.Create(
@@ -56,7 +46,7 @@ namespace BindingTester
 
         public void blahSourceChanged()
         {
-            blahSource = blahTextbox().Text;
+            blahSource = this.Text;
         }
 
     }

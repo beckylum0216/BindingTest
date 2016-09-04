@@ -12,7 +12,7 @@ namespace BindingTester
         public App()
         {
             // The root page of your application
-            MainPage = new Page1();
+            MainPage = new BindingTestPage1();
         }
 
         protected override void OnStart()
