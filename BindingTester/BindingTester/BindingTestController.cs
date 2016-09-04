@@ -19,6 +19,7 @@ namespace BindingTester
             set
             {
                 blahString = value;
+                OnPropertyChanged("blahReceiver");
             }
         }
 

@@ -25,6 +25,7 @@ D:\tafe\Advance Object Oriented Cluster\BindingTester\BindingTester\BindingTeste
 D:\tafe\Advance Object Oriented Cluster\BindingTester\BindingTester\BindingTester.Droid\obj\Debug\android\assets\System.Resources.ResourceManager.dll
 D:\tafe\Advance Object Oriented Cluster\BindingTester\BindingTester\BindingTester.Droid\obj\Debug\android\assets\System.ObjectModel.dll
 D:\tafe\Advance Object Oriented Cluster\BindingTester\BindingTester\BindingTester.Droid\obj\Debug\android\assets\System.Diagnostics.Debug.dll
+D:\tafe\Advance Object Oriented Cluster\BindingTester\BindingTester\BindingTester.Droid\obj\Debug\android\assets\System.Diagnostics.Tools.dll
 D:\tafe\Advance Object Oriented Cluster\BindingTester\BindingTester\BindingTester.Droid\obj\Debug\android\assets\System.Threading.dll
 D:\tafe\Advance Object Oriented Cluster\BindingTester\BindingTester\BindingTester.Droid\obj\Debug\android\assets\System.Collections.dll
 D:\tafe\Advance Object Oriented Cluster\BindingTester\BindingTester\BindingTester.Droid\obj\Debug\android\assets\System.Threading.Tasks.dll

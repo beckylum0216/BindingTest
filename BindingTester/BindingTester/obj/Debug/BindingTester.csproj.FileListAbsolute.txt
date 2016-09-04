@@ -7,5 +7,7 @@ D:\tafe\Advance Object Oriented Cluster\BindingTester\BindingTester\BindingTeste
 D:\tafe\Advance Object Oriented Cluster\BindingTester\BindingTester\BindingTester\bin\Debug\Xamarin.Forms.Xaml.xml
 D:\tafe\Advance Object Oriented Cluster\BindingTester\BindingTester\BindingTester\obj\Debug\BindingTester.dll
 D:\tafe\Advance Object Oriented Cluster\BindingTester\BindingTester\BindingTester\obj\Debug\BindingTester.pdb
+D:\tafe\Advance Object Oriented Cluster\BindingTester\BindingTester\BindingTester\obj\Debug\BindingTester.csprojResolveAssemblyReference.cache
+D:\tafe\Advance Object Oriented Cluster\BindingTester\BindingTester\BindingTester\obj\Debug\BindingTester.Page1.xaml.g.cs
 D:\tafe\Advance Object Oriented Cluster\BindingTester\BindingTester\BindingTester\obj\Debug\BindingTester.dll.mdb
 D:\tafe\Advance Object Oriented Cluster\BindingTester\BindingTester\BindingTester\bin\Debug\BindingTester.dll.mdb

@@ -8,6 +8,7 @@ using Xamarin.Forms;
 
 namespace BindingTester
 {
+
     class BindingTestObject : StackLayout
     {
         public BindingTestObject()
