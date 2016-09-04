@@ -1,0 +1,2 @@
+D:\tafe\Advance Object Oriented Cluster\BindingTester\BindingTester\BindingTester.WinPhone\BindingTester.WinPhone.csproj;neutral
+D:\tafe\Advance Object Oriented Cluster\BindingTester\BindingTester\BindingTester\BindingTester.csproj;neutral
