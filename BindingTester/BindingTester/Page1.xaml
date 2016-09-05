@@ -4,16 +4,16 @@
              xmlns:local="clr-namespace:BindingTester; assembly=BindingTester"
              x:Class="BindingTester.Page1">
   <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
-    <local:BindingTestObject HorizontalOptions="FillAndExpand" BackgroundColor ="Green" Text="{Binding blahReceiver, Mode=TwoWay}">
+    <local:BindingTestObject HorizontalOptions="FillAndExpand" BackgroundColor ="Green" BlahString="{Binding BlahReceiver, Mode=TwoWay}">
     </local:BindingTestObject> 
     <local:BindingTestObject.BindingContext>
       <local:BindingTestController/>
     </local:BindingTestObject.BindingContext>
-    <Entry HorizontalOptions="FillAndExpand" Text="{Binding blahReceiver, Mode=TwoWay}"></Entry>
+    <Entry HorizontalOptions="FillAndExpand" Text="{Binding BlahReceiver, Mode=TwoWay}"></Entry>
     <Entry.BindingContext>
       <local:BindingTestController/>
     </Entry.BindingContext>
-    <Label Text="{Binding blahReceiver}" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="Aqua" TextColor="Black" />
+    <Label Text="{Binding BlahReceiver}" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="Aqua" TextColor="Black" />
     <Label.BindingContext>
       <local:BindingTestController/>
     </Label.BindingContext>

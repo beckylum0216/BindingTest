@@ -18,11 +18,15 @@ D:\tafe\Advance Object Oriented Cluster\BindingTester\BindingTester\BindingTeste
 D:\tafe\Advance Object Oriented Cluster\BindingTester\BindingTester\BindingTester.Droid\bin\Debug\Xamarin.Forms.Xaml.dll
 D:\tafe\Advance Object Oriented Cluster\BindingTester\BindingTester\BindingTester.Droid\bin\Debug\BindingTester.pdb
 D:\tafe\Advance Object Oriented Cluster\BindingTester\BindingTester\BindingTester.Droid\bin\Debug\FormsViewGroup.pdb
+D:\tafe\Advance Object Oriented Cluster\BindingTester\BindingTester\BindingTester.Droid\bin\Debug\FormsViewGroup.dll.mdb
 D:\tafe\Advance Object Oriented Cluster\BindingTester\BindingTester\BindingTester.Droid\bin\Debug\Xamarin.Forms.Core.pdb
 D:\tafe\Advance Object Oriented Cluster\BindingTester\BindingTester\BindingTester.Droid\bin\Debug\Xamarin.Forms.Core.xml
+D:\tafe\Advance Object Oriented Cluster\BindingTester\BindingTester\BindingTester.Droid\bin\Debug\Xamarin.Forms.Core.dll.mdb
 D:\tafe\Advance Object Oriented Cluster\BindingTester\BindingTester\BindingTester.Droid\bin\Debug\Xamarin.Forms.Platform.Android.pdb
+D:\tafe\Advance Object Oriented Cluster\BindingTester\BindingTester\BindingTester.Droid\bin\Debug\Xamarin.Forms.Platform.Android.dll.mdb
 D:\tafe\Advance Object Oriented Cluster\BindingTester\BindingTester\BindingTester.Droid\bin\Debug\Xamarin.Forms.Xaml.pdb
 D:\tafe\Advance Object Oriented Cluster\BindingTester\BindingTester\BindingTester.Droid\bin\Debug\Xamarin.Forms.Xaml.xml
+D:\tafe\Advance Object Oriented Cluster\BindingTester\BindingTester\BindingTester.Droid\bin\Debug\Xamarin.Forms.Xaml.dll.mdb
 D:\tafe\Advance Object Oriented Cluster\BindingTester\BindingTester\BindingTester.Droid\obj\Debug\BindingTester.Droid.csprojResolveAssemblyReference.cache
 D:\tafe\Advance Object Oriented Cluster\BindingTester\BindingTester\BindingTester.Droid\obj\Debug\BindingTester.Droid.dll
 D:\tafe\Advance Object Oriented Cluster\BindingTester\BindingTester\BindingTester.Droid\obj\Debug\BindingTester.Droid.pdb
@@ -35,10 +39,6 @@ D:\tafe\Advance Object Oriented Cluster\BindingTester\BindingTester\BindingTeste
 D:\tafe\Advance Object Oriented Cluster\BindingTester\BindingTester\BindingTester.Droid\obj\Debug\uploadflags.txt
 D:\tafe\Advance Object Oriented Cluster\BindingTester\BindingTester\BindingTester.Droid\bin\Debug\BindingTester.Droid.dll.mdb
 D:\tafe\Advance Object Oriented Cluster\BindingTester\BindingTester\BindingTester.Droid\bin\Debug\BindingTester.dll.mdb
-D:\tafe\Advance Object Oriented Cluster\BindingTester\BindingTester\BindingTester.Droid\bin\Debug\FormsViewGroup.dll.mdb
-D:\tafe\Advance Object Oriented Cluster\BindingTester\BindingTester\BindingTester.Droid\bin\Debug\Xamarin.Forms.Core.dll.mdb
-D:\tafe\Advance Object Oriented Cluster\BindingTester\BindingTester\BindingTester.Droid\bin\Debug\Xamarin.Forms.Platform.Android.dll.mdb
-D:\tafe\Advance Object Oriented Cluster\BindingTester\BindingTester\BindingTester.Droid\bin\Debug\Xamarin.Forms.Xaml.dll.mdb
 D:\tafe\Advance Object Oriented Cluster\BindingTester\BindingTester\BindingTester.Droid\bin\Debug\Java.Interop.dll.mdb
 D:\tafe\Advance Object Oriented Cluster\BindingTester\BindingTester\BindingTester.Droid\bin\Debug\Mono.Android.dll.mdb
 D:\tafe\Advance Object Oriented Cluster\BindingTester\BindingTester\BindingTester.Droid\bin\Debug\mscorlib.dll.mdb

@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
+using System.Diagnostics;
 
 
 namespace BindingTester
@@ -19,34 +20,38 @@ namespace BindingTester
 
         
 
-        public static BindableProperty blahStringProperty =
+        public static BindableProperty BlahStringProperty =
             BindableProperty.Create(
-                nameof(blahSource),
+                nameof(BlahString),
                 typeof(String),
                 typeof(BindingTestObject),
                 null,
-                BindingMode.OneWay,
+                BindingMode.TwoWay,
                 propertyChanged: (bindable, oldValue, newValue) =>
                 {
-                    ((BindingTestObject)bindable).blahSourceChanged();
+                    ((BindingTestObject)bindable).BlahSourceChanged();
+                    Debug.WriteLine("Anything0");
                 }
         );
 
-        public String blahSource
+        public String BlahString
         {
             get
             {
-                return (string)GetValue(blahStringProperty);
+                Debug.WriteLine("Anything1");
+                return (string)GetValue(BlahStringProperty);
+                
             }
             set
             {
-                SetValue(blahStringProperty, value);
+                SetValue(BlahStringProperty, value);
+                Debug.WriteLine("Anything2");
             }
         }
 
-        public void blahSourceChanged()
+        public void BlahSourceChanged()
         {
-            blahSource = this.Text;
+            BlahString = this.Text;
         }
 
     }

@@ -4,22 +4,27 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.ComponentModel;
+using System.Diagnostics;
 
 namespace BindingTester
 {
     class BindingTestController : INotifyPropertyChanged
     {
-        string blahString;
-        public String blahReceiver
+        string BlahStringTest;
+
+        public String BlahReceiver
         {
             get
             {
-                return blahString;
+                Debug.WriteLine("Otherthings2");
+                return BlahStringTest;
+                
             }
             set
             {
-                blahString = value;
-                OnPropertyChanged("blahReceiver");
+                BlahStringTest = value;
+                OnPropertyChanged("BlahReceiver");
+                Debug.WriteLine("Otherthings0");
             }
         }
 

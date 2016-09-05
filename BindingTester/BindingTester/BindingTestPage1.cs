@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
+using System.Diagnostics;
 
 namespace BindingTester
 {
@@ -39,8 +40,8 @@ namespace BindingTester
         public BindingTestObject BindingEntry()
         {
             BindingTestObject TestEntry = new BindingTestObject();
-
-            TestEntry.SetBinding(BindingTestObject.blahStringProperty, "blahReceiver");
+            TestEntry.BindingContext = viewModel;
+            TestEntry.SetBinding(BindingTestObject.BlahStringProperty, "BlahReceiver", BindingMode.TwoWay);
 
             return TestEntry;
         }
@@ -55,9 +56,9 @@ namespace BindingTester
             };
             //Looking for some method like that below
             //TestLabel.GetBinding(Label.TextProperty, "blahReceiver");
-
-            TestLabel.SetBinding(Label.TextProperty, "blahReceiver");
-
+            TestLabel.BindingContext = viewModel;
+            TestLabel.SetBinding(Label.TextProperty, "BlahReceiver");
+            Debug.WriteLine("Everything0");
             return TestLabel;
 
         }
