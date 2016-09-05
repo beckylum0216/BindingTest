@@ -5,38 +5,38 @@ using System.Text;
 using System.Threading.Tasks;
 using System.ComponentModel;
 using System.Diagnostics;
+using System.Runtime.CompilerServices;
+using Xamarin.Forms.Xaml;
+
+[assembly:XamlCompilation(XamlCompilationOptions.Compile)]
 
 namespace BindingTester
 {
-    class BindingTestController : INotifyPropertyChanged
+    public class BindingTestController : INotifyPropertyChanged
     {
-        string BlahStringTest;
-
-        public String BlahReceiver
-        {
-            get
-            {
-                Debug.WriteLine("Otherthings2");
-                return BlahStringTest;
-                
-            }
-            set
-            {
-                BlahStringTest = value;
-                OnPropertyChanged("BlahReceiver");
-                Debug.WriteLine("Otherthings0");
-            }
-        }
-
         public event PropertyChangedEventHandler PropertyChanged;
 
-        protected virtual void OnPropertyChanged(string propertyName)
+        private string _blahReceiver;
+        
+        public BindingTestController()
         {
-            var handler = PropertyChanged;
-            if (handler != null)
+            //default constructor for XAML binding
+        }
+
+        public string BlahReceiver
+        {
+            get { return _blahReceiver; }
+            set
             {
-                handler(this, new PropertyChangedEventArgs(propertyName));
+                if (value == _blahReceiver) return;
+                _blahReceiver = value;
+                OnPropertyChanged(nameof(BlahReceiver));
             }
+        }
+        
+        protected virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)
+        {
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
     }
 }

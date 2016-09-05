@@ -11,11 +11,21 @@ D:\tafe\Advance Object Oriented Cluster\BindingTester\BindingTester\BindingTeste
 D:\tafe\Advance Object Oriented Cluster\BindingTester\BindingTester\BindingTester\obj\Debug\BindingTester.pdb
 D:\tafe\Advance Object Oriented Cluster\BindingTester\BindingTester\BindingTester\obj\Debug\BindingTester.dll.mdb
 D:\tafe\Advance Object Oriented Cluster\BindingTester\BindingTester\BindingTester\bin\Debug\BindingTester.dll.mdb
-D:\tafe\Advance Object Oriented Cluster\BindingTester\BindingTester\BindingTester\obj\Debug\BindingTester.dll.mdb
-D:\tafe\Advance Object Oriented Cluster\BindingTester\BindingTester\BindingTester\bin\Debug\BindingTester.dll.mdb
-D:\tafe\Advance Object Oriented Cluster\BindingTester\BindingTester\BindingTester\obj\Debug\BindingTester.dll.mdb
-D:\tafe\Advance Object Oriented Cluster\BindingTester\BindingTester\BindingTester\bin\Debug\BindingTester.dll.mdb
-D:\tafe\Advance Object Oriented Cluster\BindingTester\BindingTester\BindingTester\obj\Debug\BindingTester.dll.mdb
-D:\tafe\Advance Object Oriented Cluster\BindingTester\BindingTester\BindingTester\bin\Debug\BindingTester.dll.mdb
-D:\tafe\Advance Object Oriented Cluster\BindingTester\BindingTester\BindingTester\obj\Debug\BindingTester.dll.mdb
-D:\tafe\Advance Object Oriented Cluster\BindingTester\BindingTester\BindingTester\bin\Debug\BindingTester.dll.mdb
+C:\dev\BindingTest\BindingTester\BindingTester\bin\Debug\BindingTester.dll
+C:\dev\BindingTest\BindingTester\BindingTester\bin\Debug\BindingTester.pdb
+C:\dev\BindingTest\BindingTester\BindingTester\bin\Debug\Xamarin.Forms.Core.dll
+C:\dev\BindingTest\BindingTester\BindingTester\bin\Debug\Xamarin.Forms.Platform.dll
+C:\dev\BindingTest\BindingTester\BindingTester\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\dev\BindingTest\BindingTester\BindingTester\bin\Debug\Xamarin.Forms.Core.xml
+C:\dev\BindingTest\BindingTester\BindingTester\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\dev\BindingTest\BindingTester\BindingTester\obj\Debug\BindingTester.Page1.xaml.g.cs
+C:\dev\BindingTest\BindingTester\BindingTester\obj\Debug\BindingTester.dll
+C:\dev\BindingTest\BindingTester\BindingTester\obj\Debug\BindingTester.pdb
+C:\dev\BindingTest\BindingTester\BindingTester\bin\Debug\Xamarin.Forms.Core.pdb
+C:\dev\BindingTest\BindingTester\BindingTester\bin\Debug\Xamarin.Forms.Platform.pdb
+C:\dev\BindingTest\BindingTester\BindingTester\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\dev\BindingTest\BindingTester\BindingTester\obj\Debug\BindingTester.csprojResolveAssemblyReference.cache
+C:\dev\BindingTest\BindingTester\BindingTester\obj\Debug\BindingTester.dll.mdb
+C:\dev\BindingTest\BindingTester\BindingTester\bin\Debug\BindingTester.dll.mdb
+C:\dev\BindingTest\BindingTester\BindingTester\obj\Debug\BindingTester.dll.mdb
+C:\dev\BindingTest\BindingTester\BindingTester\bin\Debug\BindingTester.dll.mdb

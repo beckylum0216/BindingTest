@@ -10,49 +10,54 @@ using System.Diagnostics;
 namespace BindingTester
 {
 
-    class BindingTestObject : Entry
+    public class BindingTestObject : Entry
     {
-        public BindingTestObject()
-        {
-            HorizontalOptions = LayoutOptions.FillAndExpand;
-            
-        }
+        public static BindableProperty BlahStringProperty = BindableProperty.Create(
+            propertyName: nameof(BlahString),
+            returnType: typeof(string),
+            declaringType: typeof(BindingTestObject),
+            defaultValue: null,
+            defaultBindingMode: BindingMode.TwoWay,
+            propertyChanged: OnBlahStringChanged);
 
         
 
-        public static BindableProperty BlahStringProperty =
-            BindableProperty.Create(
-                nameof(BlahString),
-                typeof(String),
-                typeof(BindingTestObject),
-                null,
-                BindingMode.TwoWay,
-                propertyChanged: (bindable, oldValue, newValue) =>
-                {
-                    ((BindingTestObject)bindable).BlahSourceChanged();
-                    Debug.WriteLine("Anything0");
-                }
-        );
+        public BindingTestObject()
+        {
+            HorizontalOptions = LayoutOptions.FillAndExpand;
 
-        public String BlahString
+            TextChanged += OnTextChanged;
+
+        }
+
+        private void OnTextChanged(object sender, TextChangedEventArgs textChangedEventArgs)
+        {
+            BlahString = Text;
+        }
+
+        public string BlahString
         {
             get
             {
                 Debug.WriteLine("Anything1");
                 return (string)GetValue(BlahStringProperty);
-                
             }
             set
             {
                 SetValue(BlahStringProperty, value);
-                Debug.WriteLine("Anything2");
             }
         }
 
-        public void BlahSourceChanged()
+        private static void OnBlahStringChanged(BindableObject bindable, object oldValue, object newValue)
         {
-            BlahString = this.Text;
-        }
+            Debug.WriteLine("Anything0");
 
+            var customObject = bindable as BindingTestObject;
+
+            if (customObject != null)
+            {
+                customObject.BlahString = newValue as string;
+            }
+        }
     }
 }
